@@ -1,3 +1,9 @@
+PATH
+  remote: engines/dashboard
+  specs:
+    miller_dashboard (0.1.0)
+      rails (~> 5.0.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -160,6 +166,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  miller_dashboard!
   pg (~> 0.18)
   puma (~> 3.0)
   rails (~> 5.0.2)
