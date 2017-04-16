@@ -7,11 +7,11 @@ require "miller/dashboard/version"
 Gem::Specification.new do |s|
   s.name        = "miller_dashboard"
   s.version     = Miller::Dashboard::VERSION
-  s.authors     = [""]
-  s.email       = ["dukeoflaser@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Dashboard."
-  s.description = "TODO: Description of Dashboard."
+  s.authors     = ["Nathaniel Miller"]
+  s.email       = ["nathaniel@m.ller.io"]
+  s.homepage    = "http://m.ller.io"
+  s.summary     = "Empty Dashboard."
+  s.description = "Empty Dashboard."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
