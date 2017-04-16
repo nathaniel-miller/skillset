@@ -275,6 +275,6 @@ Devise.setup do |config|
   # so you need to do it manually. For the users scope, it would be:
   # config.omniauth_path_prefix = '/my_engine/users/auth'
 
-  config.router_name = :miller
+  config.router_name = :dashboard
   config.parent_controller = 'Miller::ApplicationController'
 end
